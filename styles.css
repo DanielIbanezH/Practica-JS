@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&family=Roboto&display=swap');
+
+*{
+    font-family:'Roboto';
+}
+
+html{
+    background-image: url(./img/fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+form {
+    width: 200px;
+    margin: 20px auto;
+    background-color: rgb(179, 248, 245) ;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(179, 248, 245) ;
+}
+
+.pokemon-card {
+    background: linear-gradient(75deg, rgb(250, 52, 52) 60%,rgb(255, 130, 130) 40%);
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto', monospace;
+    max-width: 300px;
+    border-radius: 10px;
+    color: #000;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+.picture-container1 {
+    background: rgb(150, 255, 124);
+    border-radius: 10px;
+    position: relative;
+    width: 21.4vw;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.picture-container2 {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+.picture-container3 {
+    position: relative;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.pokemon-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.pokemon-types div {
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px dashed black;
+    background-color: rgb(255, 255, 255);
+}
+
+.pokemon-picture {
+    width: 180px;
+    border-radius: 50%;
+}
+.pokemon-pokedex{
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 15vh;
+}
+
+#pokemon-name{
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: rgb(150, 255, 124);
+    border: 3px solid black;
+    color: #000;
+    font-family: 'Roboto';
+    padding: 10px;
+}
+.single-conteiner{
+    background-color: rgb(150, 255, 124);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.pokemon-panel{
+    width: 23vw;
+    border-radius: 10px;
+    border: 3px solid black;
+}
